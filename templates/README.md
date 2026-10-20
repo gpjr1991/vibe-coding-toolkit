@@ -16,6 +16,7 @@ For an existing project, [prompt 12](../docs/prompts/12-existing-project-setup.m
 | [eslint/eslint.config.mjs.example](eslint/eslint.config.mjs.example) and [typed profile](eslint/eslint.typed.config.mjs.example) | Advanced adoption in an existing codebase | Merge into existing lint configuration |
 | [eslint/verify.mjs](eslint/verify.mjs) | Local rule self-check | `scripts/verify-quality-rules.mjs` |
 | [project/](project/) | Context7 per client and Graphify exclusions | `.codex/config.toml`, `.mcp.json`, or `.graphifyignore`, when needed |
+| [project/claude.config.json.example](project/claude.config.json.example) | Optional Superpowers plugin for Claude Code sessions, including web | Merge into `.claude/settings.json`; keep personal settings outside the repository |
 | [Sentry Codex](project/sentry.codex.config.toml.example) and [Sentry Claude](project/sentry.mcp.json.example) | Optional project-scoped OAuth connection for a chosen service | Merge into `.codex/config.toml` or `.mcp.json`, replace scope identifiers, and follow the [Sentry guide](../docs/tools/22-sentry-mcp.md) |
 | [environment-manifest.json.example](environment-manifest.json.example) | Machine setup inventory | Follow the [global guide](../docs/03-environment-setup.md) |
 | [settings.json.example](settings.json.example) and [hooks/](hooks/) | Optional client hook examples | Only in the chosen integration; these are not Git hooks |
